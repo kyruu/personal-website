@@ -1,575 +1,606 @@
-<!DOCTYPE html>
-<html lang="en">
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kyle Maatallah</title>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kyle Maatallah</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.1/css/bulma.css">
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;700&amp;display=swap" rel="stylesheet">
+<link rel="icon" href="/images/favicon-32x32.png">
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.1/css/bulma.css" />
-  <link rel="stylesheet" href="./style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;700&display=swap" rel="stylesheet">
-  <link rel="icon" href="/images/favicon-32x32.png">
- 
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="/__/firebase/8.8.0/firebase-app.js"></script>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="/__/firebase/8.8.0/firebase-app.js"></script>
 
-    <!-- TODO: Add SDKs for Firebase products that you want to use
-        https://firebase.google.com/docs/web/setup#available-libraries -->
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+      https://firebase.google.com/docs/web/setup#available-libraries -->
 
-    <!-- Initialize Firebase -->
-    <script src="/__/firebase/init.js"></script>
+  <!-- Initialize Firebase -->
+  <script src="/__/firebase/init.js"></script>
 </head>
 
 <body>
 
-    <nav class="navbar is-fixed-top blue" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
-          <a id="logo" class="navbar-item">
-            <img src="/images/logo.png" style="mix-blend-mode: multiply" alt="Logo" width="45" height="50">
+  <nav class="navbar is-fixed-top blue" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a id="logo" class="navbar-item">
+          <img src="/images/logo.png" style="mix-blend-mode: multiply" alt="Logo" width="45" height="50">
+        </a>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+    
+      <div id="navbar" class="navbar-menu">
+        <div class="navbar-start">
+          <a id="about" class="navbar-item black">
+            About
           </a>
-          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
+    
+          <a id="work" class="navbar-item black">
+            Work Experience
           </a>
+
+          <a id="skills" class="navbar-item black">
+              Skills
+          </a>
+
+          <a id="projects" class="navbar-item black">
+              Projects
+          </a>
+
+          <a id="extra" class="navbar-item black">
+              Extracurriculars
+            </a>
+
+          <a id="links" class="navbar-item black">
+              Links
+            </a>
+    
+        <div class="navbar-end">
         </div>
-      
-        <div id="navbar" class="navbar-menu">
-          <div class="navbar-start">
-            <a id="about" class="navbar-item white">
-              About
-            </a>
-      
-            <a id="work" class="navbar-item white">
-              Work Experience
-            </a>
-
-            <a id="skills" class="navbar-item white">
-                Skills
-            </a>
-
-            <a id="projects" class="navbar-item white">
-                Projects
-            </a>
-
-            <a id="extra" class="navbar-item white">
-                Extracurriculars
-              </a>
-
-            <a id="links" class="navbar-item white">
-                Links
-              </a>
-      
-          <div class="navbar-end">
-          </div>
-        </div>
-        </div>
-      </nav>
-      
-      <section id="start" class="blue">
-          <div class="container">
-            <br>
-            <br>
-            <div class="container is-flex is-horizontal-center mt-5">
-              <img id="avatar" src="/images/Avatar.jpg" alt="composite" width="256" height="256">
-            </div>
-            <br>
-            <!-- <h1 class="title is-1"> -->
-              <h1>
-              Kyle Maatallah
-            </h1>
-              <h2>
-                Software Engineer
-              </h2>
+      </div>
+      </div>
+    </nav>
+    
+    <section id="start" class="blue">
+        <div class="container">
+          <br>
+          <br>
+          <div class="container is-flex is-horizontal-center mt-5">
+            <img id="avatar" src="/images/Avatar.jpg" alt="composite" width="256" height="256">
           </div>
           <br>
-      </section>
+          <!-- <h1 class="title is-1"> -->
+            <h1>
+            Kyle Maatallah
+          </h1>
+            <h2>
+              Software Engineer
+            </h2>
+        </div>
+        <br>
+    </section>
 
-      <div id="about_tab" class="tabs is-centered is-large">
-        <ul>
-          <li class="is-active"><a>About</a></li>
-        </ul>
-      </div>
-                
-        <!-- <div class="content">
-            <!-- <h1 class="title">Allow me to introduce myself.</h1> -->
-            <!-- <h1>Allow me to introduce myself.</h1>
-        </div> --> 
+    <div id="about_tab" class="tabs is-centered is-large">
+      <ul>
+        <li class="is-active"><a>About</a></li>
+      </ul>
+    </div>
 
-        <div class="columns is-centered">
-          <div class="column is-two-thirds">
-        <div class="box">
-          <article class="media">
-            <div class="media-left">
-              <figure class="image is-128x128">
-                <img src="/images/ch_logo.png" alt="composite">
-              </figure>
-            </div>
-            <div class="media-content">
-              <div class="content">
-                <p>
-                  <strong>UNC Chapel Hill</strong> <small>Computer Science (B.A.); Kenan-Flagler Business School (B.S.B.A.)</small><br>
-                  <small>Feb 2018 - May 2022</small>
-                  <br>
-                  <ul>
-                      <li><strong>GPA:</strong> 3.772</li>
-                      <li><strong>Relevant Coursework:</strong> Object-Oriented Programming, Data Structures & Algorithms, Computer Organization, Modern Web
-                          Programming, Data Science for Business, Files & Databases, Discrete Math</li>
-                  </ul>
-                </p>
-              </div>
-            </div>
-          </article>
-          <div id="about-hidden-desc" class="block" style="display: none;">
-            <p><u>About Me:</u></p>
-            <p>
-              As a rising senior at the <span class="has-text-info">University of North Carolina, Chapel Hill</span>, double-majoring in <strong>Computer Science</strong>
-              and <strong>Business Administration</strong>, I am seeking full-time employment as a Software Engineer. I have had the great 
-              opportunity to gain hands-on experience at world-class companies such as Cisco and IBM and hope to pursue this passion full-time. 
-              My focus on organization, a relentless work ethic, and innate curiosity make
-              me a valuable addition to any team. I am most-interested in full-stack development roles.
-            </p>
+      <div class="columns is-centered">
+        <div class="column is-two-thirds">
+      <div class="box">
+        <article class="media">
+          <div class="media-left">
+            <figure class="image is-128x128">
+              <img src="/images/ch_logo.png" alt="composite">
+            </figure>
           </div>
-          <a id="about-more">Read more</a>
+          <div class="media-content">
+            <div class="content">
+              <p>
+                <strong>UNC Chapel Hill</strong> <small>Computer Science (B.A.); Kenan-Flagler Business School (B.S.B.A.)</small><br>
+                <small>Feb 2018 - May 2022</small>
+                <br>
+                </p><ul>
+                    <li><strong>GPA:</strong> 3.74</li>
+                    <li>
+                      <strong>Relevant Coursework:</strong> 
+                      Data Structures and Algorithms, Object-Oriented Programming, Computer Organization,
+                      Modern Web Programming, Data Science in the Business World, Files and Databases, Programming Language Concepts, 
+                      Software Engineering Laboratory, Models of Languages and Computation, Discrete Math
+                    </li>
+                </ul>
+              <p></p>
+            </div>
+          </div>
+        </article>
+        <!-- <div id="about-hidden-desc" class="block" style="display: none;">
+          <p><u>About Me:</u></p>
+          <p>
+            I am currently a mid-level software engineer at Cisco, working on Cisco's eCommerce platform, responsible for handling over 90% of the company's order volume. <span class="has-text-info">University of North Carolina, Chapel Hill</span>, double-majoring in <strong>Computer Science</strong>
+            and <strong>Business Administration</strong>, I am seeking full-time employment as an entry-level Software Engineer. From world-class companies such as Cisco and IBM to a local startup in Chapel Hill, I've gained 
+            a ton of industry-experience and hope to pursue this passion for problem-solving full-time. My inherent attention to detail, relentless work ethic and innate curiosity make
+            me a valuable addition to any team.
+          </p>
         </div>
-        </div>
+        <a id="about-more">Read more</a> -->
       </div>
+      </div>
+    </div>
 
 <div id="work_tab" class="block">
 </div>
 
-        <div class="tabs is-centered is-large">
-          <ul>
-            <li class="is-active"><a>Work Experience</a></li>
-          </ul>
-        </div>
-        
-    <!-- <div class="content">
-        <h1 class="title">Here are my work experiences and education.</h1>
-    </div> -->
-
-      <div class="columns is-centered">
-        <div class="column is-two-thirds">
-      <div class="box is-flex">
-        <article class="media">
-          <div class="media-left">
-            <figure class="image is-128x128">
-              <img src="/images/cisco_logo.png" alt="cisco">
-            </figure>
-          </div>
-          <div class="media-content">
-            <div class="content">
-              <p>
-                <strong>Cisco</strong> <small>Software Engineering Intern</small><br>
-                <small>May 2021 - Aug 2021</small>
-                <br>
-                <ul>
-                    <li>Abstracted, centralized and optimized complex business logic in back-end APIs through implementation of industry-standard design patterns, resulting in increased system agility</li>
-                    <li>Improved code quality by reducing overall code duplication density from 4.0% to 3.4% (approx. 1600 lines) by fixing SonarQube defects</li>
-                    <li>Designed utility to support lost Apache Kafka messages</li>
-                    <li>Built JUnit tests for newly-created utility methods to maintain acceptable code coverage</li>
-                </ul>
-                <br>
-              </p>
-            </div>
-          </div>
-        </article>
-      </div>
-      </div>
-    </div>
-    
-     
-      <div class="columns is-centered">
-        <div class="column is-two-thirds">
-      <div class="box">
-        <article class="media">
-          <div class="media-left">
-            <figure class="image is-128x128">
-              <img src="/images/IBM-Logo.png" alt="IBM">
-            </figure>
-          </div>
-          <div class="media-content">
-            <div class="content">
-              <p>
-                <strong>IBM</strong> <small>Technical Solution Specialist Intern</small><br>
-                <small>May 2020 - July 2020</small>
-                <br>
-                <ul>
-                    <li>Developed IBM Watson Assistant chatbot as part of 2020 Call for Code initiative to help mitigate COVID-19 crisis</li>
-                    <li>Created code pattern demonstrating the benefits of integrating MQ Bridge with IBM Blockchain Platform on zLinux</li>
-                    <li>Instructed clients during IBM Application Discovery & Delivery Intelligence E-Workshop to help clients modernize their mainframe applications</li>
-                    <li>Redesigned Z Systems Customer Council internal website</li>
-                </ul>
-              </p>
-            </div>
-          </div>
-        </article>
-      </div>
-      </div>
-    </div>
-
-    <div class="columns is-centered">
-        <div class="column is-two-thirds">
-      <div class="box">
-        <article class="media">
-          <div class="media-left">
-            <figure class="image is-128x128">
-              <img src="/images/fizz_logo.png" alt="composite">
-            </figure>
-          </div>
-          <div class="media-content">
-            <div class="content">
-              <p>
-                <strong>Fizz Studio</strong> <small>Web Developer Intern <i>(unpaid)</i></small><br>
-                <small>Feb 2019 - May 2019</small>
-                <br>
-                <ul>
-                    <li>Facilitated projects focused on making data visualizations accessible to all, including those with vision disabilities</li>
-                    <li>Created HSL Color Picker using HTML, CSS and JavaScript</li>
-                </ul>
-              </p>
-            </div>
-          </div>
-        </article>
-      </div>
-      </div>
-    </div>
-
-    <div class="modal">
-      <div class="modal-background"></div>
-      <div class="modal-content">
-        <p class="image is-4by3">
-          <img src="Kyle_Maatallah_Resume.pdf" alt="Resume">
-        </p>
-      </div>
-      <button class="modal-close is-large" aria-label="close"></button>
-    </div>
-        
-
-    <div id="skills_tab" class="block">
-    </div>
-
       <div class="tabs is-centered is-large">
         <ul>
-          <li class="is-active"><a>Skills</a></li>
-        </ul>
+          <li class="is-active"><a>Work Experience</a></li>
+        </ul> 
       </div>
 
-      <!-- <div class="content">
-        <h1 class="title">Take a look at my skills.</h1>
-    </div> -->
+    <div class="columns is-centered">
+      <div class="column is-two-thirds">
+        <div class="box is-flex">
+      <!-- <article class="media"> -->
+        <!-- <div class="media-center">
+          <figure class="image is-128x128">
+            <img src="/images/cisco_logo.png" alt="cisco">
+          </figure>
+        </div> -->
+        <!-- <div class="media-content"> -->
+          <div class="content">
+            <div class="image-container">
+              <img width="128" height="128" src="/images/cisco_logo.png" alt="cisco">
+            </div>
+            <!-- <p class="title">Cisco</p>  -->
+            <!--SOFTWARE ENGINEER II-->
+            <p class="position">Software Engineer II</p>
+            <p class="date">Nov 2023 - Present</p>
+            <ul>
+              <li>Leverage knowledge in Java, JavaScript, HTML/CSS, Angular, and Stencil.js to deliver monthly, functional
+                enhancements to Cisco’s CPQ (Configure, Price & Quote) eCommerce platform</li>
+              <li>Lead projects aimed at reducing technical debt, including design, development, testing, deployment, and post-release
+                monitoring, through refactoring of backend REST APIs</li>
+              <li>Utilize application monitoring tools such as Splunk, Elasticsearch, and AppDynamics to proactively reduce production
+                exception counts and optimize performance bottlenecks</li>
+            </ul>
+            <!--SOFTWARE ENGINEER I-->
+            <p class="position">Software Engineer I</p>
+            <p class="date">July 2022 - Nov 2023</p>
+            <ul>
+              <li>Standardized and simplified consumption and processing of Kafka records across all subscribed topics</li>
+              <li>Decreased MongoDB oplog size by developing optimized queries for single and multi-field document updates</li>
+              <li>Minimized security vulnerabilities by encrypting sensitive customer data via JSON Web Token</li>
+            </ul>
+            <!--SOFTWARE ENGINEER iNTERN-->
+            <p class="position">Software Engineering Intern</p>
+            <p class="date">May 2021 - Aug 2021</p>
+            <ul>
+              <li>Abstracted complex business logic through implementation of industry-standard design patterns, reducing future
+                  resources required to both add new features and modify existing ones</li>
+              <li>Improved code quality by reducing code duplication density from 4.0% to 3.4% (~1600 lines)</li>
+              <li>Nominated for Intern of the Month in June</li>
+            </ul>
+          </div>
+        <!-- </div> -->
+      <!-- </article> -->
+        </div>
+      </div>
+    </div>
+  
+    <div class="columns is-centered">
+      <div class="column is-two-thirds">
+    <div class="box">
+      <!-- <article class="media">
+        <div class="media-left"> -->
+          <!-- <figure class="image is-128x128">
+            <img src="/images/IBM-Logo.png" alt="IBM">
+          </figure> -->
+        <!-- </div> -->
+        <!-- <div class="media-content"> -->
+          <div class="image-container">
+            <img width="128" height="128" src="/images/IBM-Logo.png" alt="IBM">
+          </div>
+          <div class="content">
+            <!-- <p> -->
+              <!-- <strong>IBM</strong>  -->
+              <p class="position">Technical Solution Specialist Intern</p>
+              <p class="date">May 2020 - July 2020</p>
+              <!-- </p> -->
+              <ul>
+                <li>Assisted IBM Z Systems Software team within Financial Services Market</li>
+                <li>Instructed clients during IBM Application Discovery &amp; Delivery Intelligence E-Workshop to help clients modernize their mainframe applications</li>
+                <li>Created code pattern demonstrating the benefits of integrating MQ Bridge with IBM Blockchain Platform on zLinux for internal use</li>
+                <li>Redesigned IBM Z Systems Customer Council internal website</li>
+                <li>Developed IBM Watson Assistant chatbot as part of 2020 Call for Code initiative to help mitigate COVID-19 crisis (see Projects)</li>
+              </ul>
+            <p></p>
+          </div>
+        </div>
+      </article>
+    </div>
+    </div>
+  </div>
+
+  <div class="columns is-centered">
+    <div class="column is-two-thirds">
+        <div class="box">
+      <!-- <article class="media">
+        <div class="media-left"> -->
+          <!-- <figure class="image is-128x128"> -->
+            <!-- <img src="/images/fizz_logo.png" alt="composite"> -->
+          <!-- </figure> -->
+        <!-- </div> -->
+        <!-- <div class="media-content"> -->
+          <div class="image-container">
+            <img width="128" height="128" src="/images/fizz_logo.png" alt="fizz">
+          </div>
+          <div class="content">
+            <!-- <p> -->
+              <!-- <strong>Fizz Studio</strong>  -->
+              <p class="position">Web Developer Intern <i>(unpaid)</i></p>
+              <p class="date">Feb 2019 - May 2019</p>
+              <!-- </p> -->
+              <ul>
+                  <li>Facilitated projects focused on making data visualizations accessible to all, including those with vision disabilities</li>
+                  <li>Created HSL Color Picker using HTML, CSS and JavaScript</li>
+              </ul>
+            <!-- <p></p> -->
+          <!-- </div> -->
+        </div>
+      <!-- </article> -->
+      </div>
+    </div>
+  </div>
+
+  <div class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-content">
+      <p class="image is-4by3">
+        <img src="Kyle_Maatallah_Resume.pdf" alt="Resume">
+      </p>
+    </div>
+    <button class="modal-close is-large" aria-label="close"></button>
+  </div>
+      
+
+  <div id="skills_tab" class="block">
+  </div>
+
+    <div class="tabs is-centered is-large">
+      <ul>
+        <li class="is-active"><a>Skills</a></li>
+      </ul>
+    </div>
 
 <section class="even">
-    <div class="columns is-centered">
-        <div class="column is-two-thirds">
+  <div class="columns is-centered">
+      <div class="column is-two-thirds">
         <p class="has-text-black has-text-centered">Java</p>
-        <progress class="progress is-danger" value="90" max="100"></progress>
-        <p class="has-text-black has-text-centered">HTML/CSS</p>
-        <progress class="progress is-link" value="80" max="100"></progress>
+        <progress class="progress is-danger" value="100" max="100"></progress>
         <p class="has-text-black has-text-centered">JavaScript</p>
-        <progress class="progress is-info" value="80" max="100"></progress>
+        <progress class="progress is-info" value="90" max="100"></progress>
+        <p class="has-text-black has-text-centered">HTML/CSS</p>
+        <progress class="progress is-link" value="90" max="100"></progress>
+        <p class="has-text-black has-text-centered">TypeScript</p>
+        <progress class="progress is-warning" value="80" max="100"></progress> 
         <p class="has-text-black has-text-centered">Python</p>
-        <progress class="progress is-success" value="60" max="100"></progress>
-        <p class="has-text-black has-text-centered">C</p>
-        <progress class="progress is-warning" value="50" max="100"></progress>        </div>
+        <progress class="progress is-success" value="70" max="100"></progress>       
     </div>
+  </div>
 </section>
 
 <div id="projects_tab" class="block">
 </div>
 
-      <div class="tabs is-centered is-large">
-        <ul>
-          <li class="is-active"><a>Projects</a></li>
-        </ul>
-      </div>
-
-      <!-- <div class="content">
-        <h1 class="title">Check out my creations.</h1>
-    </div> -->
-
-    <div class="columns is-centered">
-      <div class="column is-two-thirds">
-        <div class="container is-fluid">
-          <div class="box">
-            <div class="content">
-              <h1>
-              COVID-19 Chatbot
-              </h1>
-                <p>
-                  <u>Overview:</u>
-                </p>
-                <p>
-                  Developed IBM Watson Assistant chatbot for the 2020 Call for Code initiative in an effort to help communities fight the pandemic. 
-                  The chatbot leveraged data from The Weather Company’s Data Disease Tracker API as well as hospital statistics from Johns Hopkins Center
-                   for Systems Science and Engineering to answer both qualitative and quantitative questions about the virus. We first created a Watson Assistant
-                    service instance, developed Node.js webhooks to connect the chatbot to external data sources and deployed the app to IBM Cloud.
-                </p>
-                <div class="block">
-                  <div class="columns">
-                    <div class="column">
-                  <img src="/images/bbot1.png" alt="Bot1" width="587" height="471">
-                    </div>
-                    <div class="column">
-                  <img src="/images/bbot2.png" alt="Bot1" width="587" height="471">
-                    </div>
-                  </div>
-                </div>
-                <div id="projects-hidden-desc" class="block" style="display: none;">
-                  <p>
-                    <u>Motive:</u>
-                  </p>
-                  <p>
-                  During my time as an IBM Summit Intern, I was itching for the opportunity to take on more technical tasks. Shortly after finding out about
-                   the company-wide intern hackathon, I immediately reached out to a few of my fellow interns to form a team. We entered the competition as 
-                   Team Barbara (named after our awesome Boston Hub leader, of course) and got to work.
-                  </p>
-                  <p>
-                    <u>Execution:</u>
-                  </p>
-                  <p>
-                    We first created a Watson Assistant service instance and added a dialog skill to it, representing the steps we wanted the chatbot to follow
-                     when prompted with a certain type of greeting. A dialog skill consisted of three main components: intents, entities, and dialog. An intent 
-                     represented the purpose of the user’s query, such as a question about the number of confirmed COVID-19 cases in Florida. To train the dialog 
-                     skill to recognize our intents, we supplied it with many examples of user input (i.e. “cases”, “deaths”, etc.) and indicated which intents they
-                      mapped to (i.e. “COVID cases”). An entity represented a term that is relevant to an intent and provided a specific context for it. For example,
-                       we trained the skill to recognize cities and states for which a user was seeking COVID-19 data about. Lastly, the dialog represented the flow of 
-                       conversation and dictated how the bot responded to familiar intents and entities.
-                  </p>
-                  <p>
-                    Next step involved integrating the chatbot with external data sources. We utilized webhooks to trigger a request to one of our APIs once a certain 
-                    intent was recognized. The webhook, written in Node.js, collected specified data from the dialog and stored it in context variables. It then sent this
-                     data as part of a HTTP POST request to either the Disease Tracker API or John Hopkins API, depending on the intent. The webhook would then parse relevant
-                      information from the JSON response object and respond to the user with its findings.
-                  </p>
-                  <p>
-                    Finally, we deployed our chatbot to IBM Cloud as a Cloud Foundry Application and marveled at the Barbara Bot 😊.
-                  </p>
-                  </div>
-              <a id="projects-more">Read more</a>
-        </div>
-      </div>
-      </div>
-      </div>
+    <div class="tabs is-centered is-large">
+      <ul>
+        <li class="is-active"><a>Projects</a></li>
+      </ul>
     </div>
 
-    <div class="columns is-centered">
+    <!-- <div class="columns is-centered">
       <div class="column is-two-thirds">
         <div class="container is-fluid">
           <div class="box">
             <div class="content">
               <h1>
-              Snake Game
+              Cisco Commerce Workspace Optimizations
               </h1>
                 <p>
                   <u>Overview:</u>
                 </p>
                 <p>
-                  Out of sheer curiosity (and boredom during the pandemic), I decided to create my own JavaScript game. 
-                  The game utilizes HTML, CSS and JavaScript (jQuery). After the bare bones of the game was built, I continued
-                   to add new features, such as the ability to sign up as a new user and keep track of your high scores, as well
-                    as the ability to see how you stack up against other users on the leaderboard.
+                  During my time as a sofware engineering intern, I contributed to Cisco's eCommerce CPQ (Configure, Price &amp; Quote) platform that supports all Cisco's hardware, software and licensing products and 
+                  helps generate over $40B in annual revenue. Cisco sells to a variety of customers including partners, distributors and end-users directly. In addition, customers can choose to consolidate products
+                  into shipping groups and ship each of these bundles to different locations. As you can imagine, this creates a lot of complexity on the back-end. My job was to abstract this complexity from other developers
+                  and centralize it by implementing industry-standard design patterns. This involved first understanding the business logic behind the code and then centralizing the logic in Java classes and interfaces.
+                  This improved the overall code readability, allowing other developers to implement new features in less time, thus reducing costs.
                 </p>
-                <a href="https://snake-game-7ec12.web.app/" target="_blank">https://snake-game-7ec12.web.app/</a>
-                <div id="projects-hidden-desc" class="block" style="display: none;">
-                  <p>
-                    <u>Motive:</u>
-                  </p>
-                  <p>
-                  FILL IN
-                  </p>
-                  <p>
-                    <u>Execution:</u>
-                  </p>
-                  <p>
-                    FILLIN
-                  </p>
-              <a id="projects-more">Read more</a>
-              </div>
             </div>
           </div>
         </div>
       </div>
+    </div> -->
+
+  <div class="columns is-centered">
+    <div class="column is-two-thirds">
+      <div class="container is-fluid">
+        <div class="box">
+          <div class="content">
+            <h1>
+            COVID-19 Chatbot
+            </h1>
+              <p>
+                <u>Overview:</u>
+              </p>
+              <p>
+                Developed IBM Watson Assistant chatbot for the 2020 Call for Code initiative in an effort to help communities fight the pandemic. 
+                The chatbot leveraged data from The Weather Company’s Data Disease Tracker API as well as hospital statistics from Johns Hopkins Center
+                 for Systems Science and Engineering to answer both qualitative and quantitative questions about the virus. We first created a Watson Assistant
+                  service instance, developed Node.js webhooks to connect the chatbot to external data sources and deployed the app to IBM Cloud.
+              </p>
+              <div class="block">
+                <div class="columns">
+                  <div class="column">
+                <img src="/images/bbot1.png" alt="Bot1" width="587" height="471">
+                  </div>
+                  <div class="column">
+                <img src="/images/bbot2.png" alt="Bot1" width="587" height="471">
+                  </div>
+                </div>
+              </div>
+              <div id="projects-hidden-desc" class="block" style="display: none;">
+                <p>
+                  <u>Motive:</u>
+                </p>
+                <br>
+                <p>
+                During my time as an IBM Summit Intern, I was itching for the opportunity to take on more technical tasks. Shortly after finding out about
+                 the company-wide intern hackathon, I immediately reached out to a few of my fellow interns to form a team. We entered the competition as 
+                 Team Barbara (named after our awesome Boston Hub leader, of course) and got to work.
+                </p>
+                <br>
+                <p>
+                  <u>Execution:</u>
+                </p>
+                <br>
+                <p>
+                  We first created a Watson Assistant service instance and added a dialog skill to it, representing the steps we wanted the chatbot to follow
+                   when prompted with a certain type of greeting. A dialog skill consisted of three main components: intents, entities and dialog. An intent 
+                   represented the purpose of the user’s query, such as a question about the number of confirmed COVID-19 cases in Florida. To train the dialog 
+                   skill to recognize our intents, we supplied it with many examples of user input (i.e. “cases”, “deaths”, etc.) and indicated which intents they
+                    mapped to (i.e. “COVID cases”). An entity represented a term that is relevant to an intent and provided a specific context for it. For example,
+                     we trained the skill to recognize cities and states for which a user was seeking COVID-19 data about. Lastly, the dialog represented the flow of 
+                     conversation and dictated how the bot responded to familiar intents and entities.
+                </p>
+                <br>
+                <p>
+                  Next step involved integrating the chatbot with external data sources. We utilized webhooks to trigger a request to one of our APIs once a certain 
+                  intent was recognized. The webhook, written in Node.js, collected specified data from the dialog and stored it in context variables. It then sent this
+                   data as part of a HTTP POST request to either the Disease Tracker API or John Hopkins API, depending on the intent. The webhook would then parse relevant
+                    information from the JSON response object and respond to the user with its findings.
+                </p>
+                <br>
+                <p>
+                  Finally, we deployed our chatbot to IBM Cloud as a Cloud Foundry Application and marveled at the Barbara Bot 😊.
+                </p>
+                </div>
+            <a  class="link" id="projects-more">Read more</a>
+      </div>
     </div>
-    
+    </div>
+    </div>
+  </div>
+
+  <div class="columns is-centered">
+    <div class="column is-two-thirds">
+      <div class="container is-fluid">
+        <div class="box">
+          <div class="content">
+            <h1>
+            Snake Game
+            </h1>
+            <div class="image-container">
+              <a class="link" href="https://snake-game-7ec12.web.app/" target="_blank">(Link)</a>
+            </div>
+            <p>
+              <u>Overview:</u>
+            </p>
+            <p>
+                In hopes of improving my web development skills, I decided to create my own JavaScript game. 
+                The game utilizes HTML, CSS and vanilla JavaScript. After building the core logic of the game, I continued
+                 to add new features, such as the ability to sign up as a new user and keep track of your high scores, as well
+                  as the ability to see how you stack up against other users on the leaderboard. I leveraged Google Firebase Authentication, 
+                  Firestore Database and Firebase Hosting to achieve this.
+              </p>
+              <br>
+              <div class="columns">
+                <div class="column is-centered">
+                  <img src="/images/snake-gif.gif" alt="snake-gif" width="587" height="471">
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
 <div id="extra_tab" class="block">
 </div>
 
-      <div class="tabs is-centered is-large">
-        <ul>
-          <li class="is-active"><a>Extracurriculars</a></li>
-        </ul>
-      </div>
+    <div class="tabs is-centered is-large">
+      <ul>
+        <li class="is-active"><a>Extracurriculars</a></li>
+      </ul>
+    </div>
 
-      <!-- <div class="content">
-        <h1 class="title">My positions during undergrad.</h1>
-    </div> -->
-
+  <div class="columns is-centered">
+      <div class="column is-two-thirds">
+        <div class="container is-fluid">
+    <div class="box">
+      <article class="media">
+        <div class="media-left">
+          <figure class="image is-128x128">
+            <img src="/images/think_logo.png" alt="composite">
+          </figure>
+        </div>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>Carolina THINK</strong> 
+              <small>Director of Thinkternship Program</small><br>
+              <small>Sept 2018 - May 2022</small>
+              <br>
+              </p><ul>
+                  <li>Directed and lead the Thinkternship program (pairing aspiring entrepreneurs with local startups): reached out to startups,
+                      connecting needed skills with students’ expertise, ensuring all runs smoothly and expectations are met through
+                      constant communication with startups, making adjustments as needed</li>
+                  <li>Built and developed entrepreneurial skills through weekly meetings</li>
+                  <li>Attended workshops and guest speaker events</li>
+              </ul>
+            <p></p>
+          </div>
+        </div>
+      </article>
+    </div>
+    </div>
+    </div>
+  </div>
+  
     <div class="columns is-centered">
-        <div class="column is-two-thirds">
-          <div class="container is-fluid">
-      <div class="box">
-        <article class="media">
-          <div class="media-left">
-            <figure class="image is-128x128">
-              <img src="/images/think_logo.png" alt="composite">
-            </figure>
+      <div class="column is-two-thirds">
+        <div class="container is-fluid">
+    <div class="box">
+      <article class="media">
+        <div class="media-left">
+          <figure class="image is-128x128">
+            <img src="/images/science_days_logo.jpg" alt="composite">
+          </figure>
+        </div>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>UNC Science Days</strong> <small>Mentor<i>(selected via competitive application process)</i></small><br>
+              <small>Sept 2018 - May 2021</small>
+              <br>
+              </p><ul>
+                  <li>Worked with middle school students who have social, economic, and educational challenges by leading one hour science
+                      experiments to encourage students to become interested in the STEM field</li>
+                  <li>Positively influenced the development of local youth both socially and academically</li>
+              </ul>
+            <p></p>
           </div>
-          <div class="media-content">
-            <div class="content">
-              <p>
-                <strong>Carolina THINK</strong> <small>Director of Thinkternship Program</small><br>
-                <small>Sept 2018 - Present</small>
-                <br>
-                <ul>
-                    <li>Direct and lead the Thinkternship program (pairing aspiring entrepreneurs with local startups): reaching out to startups,
-                        connecting needed skills with students’ expertise, ensuring all runs smoothly and expectations are being met through
-                        constant communication with startups, making adjustments as needed</li>
-                    <li>Building and developing entrepreneurial skills through weekly meetings</li>
-                    <li>Attend workshops and guest speaker events</li>
-                </ul>
-              </p>
-            </div>
-          </div>
-        </article>
-      </div>
-      </div>
-      </div>
+        </div>
+      </article>
     </div>
-    
-      
-      <div class="columns is-centered">
-        <div class="column is-two-thirds">
-          <div class="container is-fluid">
-      <div class="box">
-        <article class="media">
-          <div class="media-left">
-            <figure class="image is-128x128">
-              <img src="/images/science_days_logo.jpg" alt="composite">
-            </figure>
-          </div>
-          <div class="media-content">
-            <div class="content">
-              <p>
-                <strong>UNC Science Days</strong> <small>Mentor<i>(selected via competitive application process)</i></small><br>
-                <small>Sept 2018 - Present</small>
-                <br>
-                <ul>
-                    <li>Work with middle school students who have social, economic, and educational challenges by leading one hour science
-                        experiments to encourage students to become interested in the STEM field</li>
-                    <li>Positively influence the development of local youth both socially and academically</li>
-                </ul>
-              </p>
-            </div>
-          </div>
-        </article>
-      </div>
+  </div>
     </div>
-      </div>
-    </div>
+  </div>
 
-    <div class="columns is-centered">
-        <div class="column is-two-thirds">
-          <div class="container is-fluid">
-      <div class="box">
-        <article class="media">
-          <div class="media-left">
-            <figure class="image is-128x128">
-              <img src="/images/chi_phi_logo.jpg" alt="composite">
-            </figure>
+  <div class="columns is-centered">
+      <div class="column is-two-thirds">
+        <div class="container is-fluid">
+    <div class="box">
+      <article class="media">
+        <div class="media-left">
+          <figure class="image is-128x128">
+            <img src="/images/chi_phi_logo.jpg" alt="composite">
+          </figure>
+        </div>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>Chi Phi Fraternity</strong> <small>Treasurer; Fire Marshal</small><br>
+              <small>Jan 2019 - Nov 2020</small>
+              <br>
+              </p><ul>
+                  <li>Created and managed $350K annual budget for fraternity of 70 members to efficiently meet financial obligations</li>
+                  <li>Ensured that fraternity met required fire and safety regulations in preparation for inspection by local fire department</li>
+              </ul>
+            <p></p>
           </div>
-          <div class="media-content">
-            <div class="content">
-              <p>
-                <strong>Chi Phi Fraternity</strong> <small>Treasurer; Fire Marshal</small><br>
-                <small>Jan 2019 - Nov 2020</small>
-                <br>
-                <ul>
-                    <li>Create and manage $350K annual budget for fraternity of 70 members to efficiently meet financial obligations</li>
-                    <li>Ensure that fraternity meets required fire and safety regulations in preparation for inspection by local fire department</li>
-                </ul>
-              </p>
-            </div>
-          </div>
-        </article>
-      </div>
-      </div>
-    </div> 
+        </div>
+      </article>
     </div>
-    <br>
+    </div>
+  </div> 
+  </div>
+  <br>
 
-      <section class="blue" id="level">
-        <br>
-      <nav class="level blue">
-        <div class="level-item has-text-centered">
-          <div>
-            <p class="heading">Hours Coding</p>
-            <p class="title">1,000+</p>
-          </div>
-        </div>
-        <div class="level-item has-text-centered">
-          <div>
-            <p class="heading">Lines of code</p>
-            <p class="title">10,000+</p>
-          </div>
-        </div>
-        <div class="level-item has-text-centered">
-          <div>
-            <p class="heading">Network</p>
-            <p class="title">200+</p>
-          </div>
-        </div>
-        <div class="level-item has-text-centered">
-          <div>
-            <p class="heading">Books Read</p>
-            <p class="title">100+</p>
-          </div>
-        </div>
-      </nav>
+    <section class="blue" id="level">
       <br>
-      </section>
-
-      <div id="links_tab" class="tabs is-centered is-large">
-        <ul>
-          <li class="is-active"><a>Links</a></li>
-        </ul>
+    <nav class="level blue">
+      <div class="level-item has-text-centered">
+        <div>
+          <p class="heading">Hours Coding</p>
+          <p class="title">1,000+</p>
+        </div>
       </div>
+      <div class="level-item has-text-centered">
+        <div>
+          <p class="heading">Lines of code</p>
+          <p class="title">10,000+</p>
+        </div>
+      </div>
+      <div class="level-item has-text-centered">
+        <div>
+          <p class="heading">Network</p>
+          <p class="title">200+</p>
+        </div>
+      </div>
+      <div class="level-item has-text-centered">
+        <div>
+          <p class="heading">Books Read</p>
+          <p class="title">100+</p>
+        </div>
+      </div>
+    </nav>
+    <br>
+    </section>
 
-      <div class="buttons is-centered">
-        <button id="resume" class="button is-link">
-            <span class="icon">
-                <i class="fa fa-download"></i>
-              </span>
-              <span>Download Resume</span>
-        </button>
-        <button id="github" class="button">
-            <span class="icon">
-                <i class="fab fa-github"></i>
-              </span>
-              <span>GitHub</span>
-        </button>
-        <button id="linkedin" class="button is-success">
-            <span class="icon">
-                <i class="fab fa-linkedin-in"></i>
+    <div id="links_tab" class="tabs is-centered is-large">
+      <ul>
+        <li class="is-active"><a>Links</a></li>
+      </ul>
+    </div>
+
+    <div class="buttons is-centered">
+      <a id="resume" class="button is-link" href="/images/Kyle_Maatallah_Resume.pdf" download="Kyle_Maatallah_Resume.pdf">
+          <span class="icon">
+              <i class="fa fa-download"></i>
             </span>
-            <span>LinkedIn</span>
-        </button>
-        <a id="email" class="button is-link is-outlined" href="malito:maatal22@live.unc.edu">
-            <span class="icon">
-                <i class="fas fa-envelope"></i> 
+            <span>Download Resume</span>
+          </a>
+      <a id="github" class="button">
+          <span class="icon">
+              <i class="fab fa-github"></i>
             </span>
-            <span>maatal22@live.unc.edu</span>
+            <span>GitHub</span>
+          </a>
+      <a id="linkedin" class="button is-success">
+          <span class="icon">
+              <i class="fab fa-linkedin-in"></i>
+          </span>
+          <span>LinkedIn</span>
         </a>
-      </div>
+      <a id="email" class="button is-link is-outlined" href="mailto:kmaatallah24@gmail.com">
+          <span class="icon">
+              <i class="fas fa-envelope"></i> 
+          </span>
+          <span>Email</span>
+      </a>
+    </div>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="/script.js" type="module"></script>
-</body>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="/script.js" type="module"></script>
 
-</html>
+
+</body></html>

@@ -11,7 +11,6 @@ window.onload = function () {
     // attach event listeners to links
     $("#github").on("click", handleGitHubBtnPress);
     $("#linkedin").on("click", handleLinkedInBtnPress);
-    // $("#resume").on("click", handleResumeBtnPress);
   
     // attach event listeners to anchors
     $("#about-more").on("click", handleAboutMoreBtnPress);
@@ -54,16 +53,12 @@ window.onload = function () {
     window.open("https://www.linkedin.com/in/kyle-maatallah/", "_blank");
   };
   
-  // let handleResumeBtnPress = function () {
-  //   window.open("Kyle_Maatallah_Resume.pdf");
-  // };
-  
   /**
    * Replace "Read More" button with "Read Less" in About tab
    */
    let handleAboutMoreBtnPress = function () {
     $("#about-hidden-desc").css("display", "block");
-    $("#about-more").replaceWith('<a id="about-less">Read less</a>');
+    $("#about-more").replaceWith('<a class="link" id="about-less">Read less</a>');
     $("#about-less").on("click", handleAboutLessBtnPress);
   };
   
@@ -73,7 +68,7 @@ window.onload = function () {
   let handleAboutLessBtnPress = function () {
     $("#about-hidden-desc").css("display", "none");
     location.href = "#about_tab";
-    $("#about-less").replaceWith('<a id="about-more">Read more</a>');
+    $("#about-less").replaceWith('<a class="link" id="about-more">Read more</a>');
     $("#about-more").on("click", handleAboutMoreBtnPress);
   };
   
@@ -82,7 +77,7 @@ window.onload = function () {
    */
   let handleProjectsMoreBtnPress = function () {
     $("#projects-hidden-desc").css("display", "block");
-    $("#projects-more").replaceWith('<a id="projects-less">Read less</a>');
+    $("#projects-more").replaceWith('<a class="link" id="projects-less">Read less</a>');
     $("#projects-less").on("click", handleProjectsLessBtnPress);
   };
   
@@ -92,6 +87,6 @@ window.onload = function () {
   let handleProjectsLessBtnPress = function () {
     $("#projects-hidden-desc").css("display", "none");
     location.href = "#projects_tab";
-    $("#projects-less").replaceWith('<a id="projects-more">Read more</a>');
+    $("#projects-less").replaceWith('<a class="link" id="projects-more">Read more</a>');
     $("#projects-more").on("click", handleProjectsMoreBtnPress);
   };

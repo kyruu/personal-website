@@ -1,73 +1,104 @@
 html {
-    scroll-behavior: smooth;
-  }
-  
-  body {
-    background-color: #f5fbfc;
-  }
-  
-  h1 {
-    text-align: center;
-    color: black;
-    /* font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-      "Lucida Sans", Arial, sans-serif; */
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 56px;
-  }
-  
-  h2 {
-    text-align: center;
-    color: black;
-    /* font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-      "Lucida Sans", Arial, sans-serif; */
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 24px;
-  }
-  
-  p, a {
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 24px;
-  }
-  
-  button {
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 14px;
-  }
-  
-  li {
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 18px;
-  }
-  
-  ul {
-    list-style: circle;
-  }
-  
-  .blue {
-    background-color: #a8d0ec;
-  }
-  
-  .white {
-    color: white;
-  }
-  
-  .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 75%;
-  }
-  
-  .is-horizontal-center {
-    justify-content: center;
-  }
-  
-  #avatar {
-    border-radius: 50%;
-    border: 4px solid #1d1f27;
-  }
-  
-  /* .even {
-      background-color: #79c6e0;
-  } */
-  
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f5fbfc;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  /* font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif; */
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 56px;
+  margin-bottom: 0px !important;
+}
+
+h2 {
+  text-align: center;
+  color: black;
+  /* font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif; */
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 24px;
+}
+
+div.image-container {
+  text-align: center;
+}
+
+p, a {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 24px;
+  margin-bottom: 0px !important;
+  color: black;
+}
+
+a.link {
+  font-size: 20px;
+  color: blue;
+  text-decoration: underline;
+}
+
+p.title {
+  font-weight: bold;
+}
+
+p.position {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+p.date {
+  font-size: 16px;
+}
+
+button {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 14px;
+}
+
+li {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 18px;
+}
+
+ul {
+  list-style: circle;
+  margin-top: 0px !important;
+}
+
+img {
+  display:block;
+  margin:auto;
+}
+
+.blue {
+  background-color: #a8d0ec;
+}
+
+.white {
+  color: white;
+}
+
+.black {
+  color: black;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+.is-horizontal-center {
+  justify-content: center;
+}
+
+#avatar {
+  border-radius: 50%;
+  border: 4px solid #1d1f27;
+}
